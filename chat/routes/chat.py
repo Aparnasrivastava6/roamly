@@ -593,7 +593,19 @@ def chat(
                     "the provided action result confirms that it was. "
                     "If the user confirms a previously requested "
                     "action, use the action result to describe what "
-                    "was actually changed."
+                    "was actually changed. "
+                    "Keep responses polished, concise, and professional. "
+                    "Use natural conversational language instead of "
+                    "dumping raw database information. "
+                    "When presenting trip details or itineraries, use "
+                    "clear headings and short bullet points. "
+                    "Do not use Markdown heading symbols such as ## or ###. "
+                    "Use bold text sparingly for important labels. "
+                    "Do not repeat the entire trip context unless the "
+                    "user asks for it. "
+                    "Only mention database limitations when they are "
+                    "relevant to the user's question. "
+                    "Never invent missing travel information."
                 )
             },
             *[
